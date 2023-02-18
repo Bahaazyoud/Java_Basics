@@ -3,7 +3,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		ArrayList<ArrayList<String>> groacery = new ArrayList<ArrayList<String>>();
+		ArrayList<ArrayList<String>> grocery = new ArrayList<ArrayList<String>>();
 		
 		ArrayList<String> food = new ArrayList<String>();
 		food.add("pasta");
@@ -16,10 +16,10 @@ public class Main {
 		drink.add("water");
 		
 		
-		groacery.add(food);
-		groacery.add(drink);
-		System.out.println(groacery);
-		System.out.println(groacery.get(1).get(0));
+		grocery.add(food);
+		grocery.add(drink);
+		System.out.println(grocery);
+		System.out.println(grocery.get(1).get(0));
 
 	}
 
